@@ -159,3 +159,23 @@
     background-color: white;
     color: black;
 }
+
+/* ini notif */
+.notifikasi {
+    padding: 1rem;
+    
+    width: 95%;
+
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+#notifikasi-text {
+    opacity: 0;
+    right: 1rem;
+    position: fixed;
+    padding: 1rem;
+    border: 1px solid black;
+    transition: ease-in-out 0.3s;
+}
